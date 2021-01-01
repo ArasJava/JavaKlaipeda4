@@ -6,7 +6,7 @@ public interface RemoteController {
 
     void enable(boolean action);
 
-    default void print() {
-        System.out.println(this.getClass().getSimpleName());
-    }
+//    default void print() {
+//        System.out.println(this.getClass().getSimpleName());
+//    }
 }

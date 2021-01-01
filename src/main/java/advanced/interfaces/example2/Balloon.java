@@ -17,4 +17,5 @@ public class Balloon extends AirTransport implements Fly {
     public boolean canFly(String condition) {
         return condition.equals("good");
     }
+
 }

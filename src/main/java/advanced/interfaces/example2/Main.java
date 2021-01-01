@@ -16,5 +16,8 @@ public class Main {
         // Polymorphism
         AirTransport transport = new Balloon(1);
         Fly transport2 = new Plane(20);
+
+        System.out.println(transport2);
     }
+
 }

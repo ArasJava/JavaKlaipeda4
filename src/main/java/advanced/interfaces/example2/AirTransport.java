@@ -7,4 +7,5 @@ public abstract class AirTransport {
     public AirTransport(int speed) {
         this.speed = speed;
     }
+
 }
