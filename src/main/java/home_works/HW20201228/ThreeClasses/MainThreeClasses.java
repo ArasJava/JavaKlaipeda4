@@ -7,6 +7,8 @@ public class MainThreeClasses {
         Developer developer = new Developer( + 1);
         System.out.println("Has " + developer.getAgeOfExperience() + " year of Experience.");
         JavaDeveloper javaDeveloper = new JavaDeveloper();
-        new JavaDeveloper();
+        //Overload method
+        JavaDeveloper javaDeveloper1 = new JavaDeveloper("And he is learning!");
+
     }
 }
