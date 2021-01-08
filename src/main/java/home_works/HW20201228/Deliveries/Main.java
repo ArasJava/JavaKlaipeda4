@@ -28,7 +28,7 @@ public class Main {
 
         List<Gadget> gadgetListPerson3 = new ArrayList<Gadget>();
         gadgetListPerson3.add(phone3);
-        gadgetListPerson3.add(tv2);
+        gadgetListPerson3.add(tv3);
 
         Person person1 = new Person("Jonas ", "Nemuno g.1 ", (ArrayList<Gadget>) gadgetListPerson1, 5);
         System.out.println(person1);
